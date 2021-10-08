@@ -6,6 +6,9 @@ import Apropos from './pages/Apropos'
 import Error from './components/error'
 import Header from './components/Header'
 
+import './styles/normalize.css'
+import './styles/index.css'
+
 ReactDOM.render(
   <React.StrictMode>
     <Router>
