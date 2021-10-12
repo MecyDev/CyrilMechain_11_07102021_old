@@ -8,6 +8,7 @@ import Header from './components/Header'
 
 import './styles/normalize.css'
 import './styles/index.css'
+import './styles/responsive.css'
 
 ReactDOM.render(
   <React.StrictMode>
