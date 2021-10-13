@@ -8,10 +8,10 @@ class Navigation extends Component {
     return (
       <nav className="nav-main">
         <Link className="nav-main__link" to="/">
-          ACCUEIL
+          Accueil
         </Link>
         <Link className="nav-main__link" to="/a-propos">
-          A PROPOS
+          A propos
         </Link>
       </nav>
     )

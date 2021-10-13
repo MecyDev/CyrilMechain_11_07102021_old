@@ -12,6 +12,7 @@
   font-size: 1.2rem;
   line-height: 142.6%;
   color: #ff6060;
+  text-transform: uppercase;
 }
 
 .nav-main__link:first-child {
