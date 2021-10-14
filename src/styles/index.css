@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 89.4vw;
+  margin: auto;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -17,11 +18,4 @@ a {
 
 a:visited {
   color: #ff6060;
-}
-
-.container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 20px repeat(10, 1fr) 20px;
-  margin: auto;
 }

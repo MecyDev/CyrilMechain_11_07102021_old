@@ -1,11 +1,21 @@
 import { Component } from 'react'
 import Banner from '../../components/Banner'
+import Thumb from '../../components/Thumb'
+
+import { dataAppart } from '../../data/dataAppart'
 
 class Home extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <Banner />
+        <main role="main">
+          <section className="listAppart">
+            {dataAppart.map((el) => (
+              <Thumb key={el.id} title={el.title} />
+            ))}
+          </section>
+        </main>
       </div>
     )
   }

@@ -9,7 +9,7 @@ import './header.css'
 class Header extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <header>
           <div>
             <Link to="/">
