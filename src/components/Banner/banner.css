@@ -1,4 +1,4 @@
-.section1 {
+.banner {
   display: flex;
   align-items: center;
   grid-column-start: 2;
@@ -13,7 +13,7 @@
   border-radius: 10px;
 }
 
-.section1 h1 {
+.banner h1 {
   width: 217px;
   font-style: normal;
   font-weight: 400;

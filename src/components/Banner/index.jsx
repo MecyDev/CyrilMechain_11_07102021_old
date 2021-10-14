@@ -1,15 +1,15 @@
 import { Component } from 'react'
 
-import './section1.css'
+import './banner.css'
 
-class Section1 extends Component {
+class Banner extends Component {
   render() {
     return (
-      <div className="section1">
+      <div className="banner">
         <h1>Chez vous, partout et ailleurs</h1>
       </div>
     )
   }
 }
 
-export default Section1
+export default Banner

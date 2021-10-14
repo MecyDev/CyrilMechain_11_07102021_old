@@ -1,11 +1,11 @@
 import { Component } from 'react'
-import Section1 from '../../components/section1'
+import Banner from '../../components/Banner'
 
 class Home extends Component {
   render() {
     return (
       <div className="container">
-        <Section1 />
+        <Banner />
       </div>
     )
   }

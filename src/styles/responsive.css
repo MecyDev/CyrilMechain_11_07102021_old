@@ -3,7 +3,7 @@
     width: 540px;
     margin: auto;
   }
-  .section1 h1 {
+  .banner h1 {
     width: 100%;
     text-align: center;
     font-size: 2.4rem;
@@ -34,7 +34,7 @@
     width: 70px;
   }
 
-  .section1 {
+  .banner {
     height: 131px;
     margin-top: 29px;
     justify-content: center;
@@ -45,7 +45,7 @@
     border-radius: 10px;
   }
 
-  .section1 h1 {
+  .banner h1 {
     width: 100%;
     text-align: center;
     font-size: 3rem;
@@ -85,12 +85,12 @@
     width: 80px;
   }
 
-  .section1 {
+  .banner {
     margin-top: 34px;
     border-radius: 12px;
   }
 
-  .section1 h1 {
+  .banner h1 {
     font-size: 3.4rem;
   }
 }
@@ -134,7 +134,7 @@
     width: 124px;
   }
 
-  .section1 {
+  .banner {
     grid-column-start: 1;
     grid-column-end: 13;
     height: 203px;
@@ -144,7 +144,7 @@
     border-radius: 23px;
   }
 
-  .section1 h1 {
+  .banner h1 {
     font-size: 4.4rem;
   }
 }
@@ -166,13 +166,13 @@
     grid-template-columns: repeat(12, 1fr);
   }
 
-  .section1 {
+  .banner {
     height: 223px;
     margin-top: 63px;
     border-radius: 25px;
   }
 
-  .section1 h1 {
+  .banner h1 {
     font-size: 4.8rem;
   }
 }
