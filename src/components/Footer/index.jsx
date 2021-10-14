@@ -9,11 +9,7 @@ class Footer extends Component {
     return (
       <footer>
         <div className="footer_img">
-          <img
-            className="footer__img"
-            src={logo}
-            alt="Logo du site de location d'appartements Kasa"
-          />
+          <img src={logo} alt="Logo du site de location d'appartements Kasa" />
         </div>
         <div className="copyright">
           <p>© 2020 Kasa. All rights reserved</p>
