@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Apropos from './pages/Apropos'
 import Error from './components/error'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 import './styles/normalize.css'
 import './styles/index.css'
@@ -25,6 +26,7 @@ ReactDOM.render(
           <Error />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
