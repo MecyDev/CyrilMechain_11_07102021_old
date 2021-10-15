@@ -1,0 +1,9 @@
+.about_banner {
+  height: 223px;
+  margin-top: 17px;
+  margin-bottom: 19px;
+  background-image: linear-gradient(rgba(126, 90, 90, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../assets/gustavo-alves-YOXSC4zRcxw-unsplash_small.jpg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
