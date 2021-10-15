@@ -6,6 +6,7 @@ import Apropos from './pages/Apropos'
 import Error from './components/error'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import DetailsAppart from './pages/DetailsAppart'
 
 import './styles/minireset.min.css'
 import './styles/index.css'
@@ -19,6 +20,10 @@ ReactDOM.render(
         <Route exact path="/">
           <Home />
         </Route>
+        <Route
+          path="/details/:id"
+          render={(props) => <DetailsAppart {...props} />}
+        />
         <Route path="/a-propos">
           <Apropos />
         </Route>

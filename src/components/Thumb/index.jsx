@@ -6,9 +6,11 @@ import './thumb.css'
 class Thumb extends Component {
   render() {
     return (
-      <div className="card">
-        <h2>{this.props.title}</h2>
-      </div>
+      <Link to={`/details/${this.props.id}`}>
+        <div className="card">
+          <h2>{this.props.title}</h2>
+        </div>
+      </Link>
     )
   }
 }
