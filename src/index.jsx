@@ -7,7 +7,7 @@ import Error from './components/error'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-import './styles/normalize.css'
+import './styles/minireset.min.css'
 import './styles/index.css'
 import './styles/responsive.css'
 
