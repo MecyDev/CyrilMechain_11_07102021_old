@@ -1,4 +1,4 @@
-.about_banner {
+.about-banner {
   height: 223px;
   margin-top: 17px;
   margin-bottom: 19px;
@@ -6,4 +6,11 @@
     url(../../assets/gustavo-alves-YOXSC4zRcxw-unsplash_small.jpg);
   background-repeat: no-repeat;
   border-radius: 10px;
+}
+
+.about-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

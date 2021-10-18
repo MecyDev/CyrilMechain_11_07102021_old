@@ -33,10 +33,6 @@
     text-transform: capitalize;
   }
 
-  .nav-main__link:first-child {
-    /*width: 70px;*/
-  }
-
   .banner {
     height: 131px;
     margin-top: 29px;
@@ -79,10 +75,6 @@
     text-transform: capitalize;
   }
 
-  .nav-main__link:first-child {
-    /*width: 80px;*/
-  }
-
   .banner {
     margin-top: 34px;
     border-radius: 12px;
@@ -120,10 +112,6 @@
     text-transform: capitalize;
   }
 
-  .nav-main__link:first-child {
-    /*width: 124px;*/
-  }
-
   .banner {
     height: 203px;
     margin-top: 54px;
@@ -134,6 +122,55 @@
 
   .banner h1 {
     font-size: 4.4rem;
+  }
+  .about-banner {
+    margin-top: 44px;
+    margin-bottom: 31px;
+    background-image: linear-gradient(
+        rgba(126, 90, 90, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(../assets/gustavo-alves-YOXSC4zRcxw-unsplash_xl.jpg);
+    border-radius: 25px;
+  }
+
+  .dropdown-container {
+    margin-bottom: 31px;
+  }
+
+  .dropdown {
+    position: relative;
+    height: 47px;
+  }
+
+  .dropdown h2 {
+    margin-left: 18px;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 142.6%;
+    color: white;
+  }
+
+  .arrow {
+    width: 24px;
+    height: 14px;
+    margin-right: 33px;
+  }
+
+  .dropdown-content {
+    min-height: inherit;
+    margin-top: -5px;
+  }
+
+  .dropdown-content p {
+    width: 998px;
+    padding-top: 30px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 142.6%;
+    color: #ff6060;
   }
 }
 

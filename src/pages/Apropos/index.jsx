@@ -32,8 +32,8 @@ class Apropos extends Component {
   render() {
     return (
       <div>
-        <div className="about_banner"></div>
-        <main>
+        <div className="about-banner"></div>
+        <main className="about-main">
           {this.data.map((el) => (
             <Dropdown key={el.id} title={el.title} content={el.content} />
           ))}
