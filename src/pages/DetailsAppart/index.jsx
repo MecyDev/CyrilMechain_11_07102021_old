@@ -1,6 +1,8 @@
 import { Component } from 'react'
 import Carrousel from '../../components/Carrousel'
 import Tag from '../../components/Tag'
+import Profil from '../../components/Profil'
+import Rate from '../../components/Rate'
 
 import { dataAppart } from '../../data/dataAppart'
 
@@ -24,12 +26,15 @@ class DetailsAppart extends Component {
           <div className="info_1">
             <h1>{result[0].title}</h1>
             <h2>{result[0].location}</h2>
-            <div className="tags"></div>
+            <div className="tags">
+              {result[0].tags.map((el) => (
+                <Tag key={el} value={el} />
+              ))}
+            </div>
           </div>
           <div className="info_2">
-            {result[0].tags.map((el) => (
-              <Tag key={el} value={el} />
-            ))}
+            <Rate />
+            <Profil name={result[0].host.name} photo={result[0].host.picture} />
           </div>
         </div>
       </main>

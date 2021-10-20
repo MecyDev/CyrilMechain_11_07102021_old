@@ -1,7 +1,7 @@
 .carrousel {
   position: relative;
-  width: clamp(335px, 50vw, 100%);
-  height: clamp(255px, 50vw, 415px);
+  width: clamp(335px, 100%, 1240px);
+  height: clamp(255px, 68vw, 415px);
   margin-top: 27px;
   border-radius: 10px;
 }
@@ -30,8 +30,8 @@
 }
 
 .nav {
-  width: clamp(13px, 50vw, 48px);
-  height: clamp(20px, 50vw, 80px);
+  width: clamp(13px, 3.47vw, 48px);
+  height: clamp(20px, 5.33vw, 80px);
   background-color: transparent;
   text-align: center;
   border: none;
@@ -48,14 +48,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   transform: rotate(180deg);
-  margin-left: clamp(6px, 1vw, 23px);
+  margin-left: clamp(6px, 1.6vw, 23px);
 }
 
 .nav--right {
   background-image: url(../../assets/chevron.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: clamp(6px, 1vw, 23px);
+  margin-right: clamp(6px, 1.6vw, 23px);
 }
 
 .carrousel span {
@@ -64,7 +64,7 @@
   transform: translateX(-50%);
   bottom: clamp(5px, 1vw, 25px);
   font-weight: 500;
-  font-size: clamp(1.4rem, 10vw, 1.8rem);
+  font-size: clamp(1.4rem, 3.73vw, 1.8rem);
   line-height: 142.6%;
   color: white;
 }
