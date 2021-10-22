@@ -13,6 +13,22 @@
     font-size: 2.4rem;
     margin-left: 0;
   }
+
+  .listAppart {
+    background: #f7f7f7;
+    border-radius: 10px;
+    grid-template-columns: 340px;
+    grid-template-rows: 340px;
+    row-gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .card {
+    width: 340px;
+    height: 340px;
+  }
 }
 
 /***************************/
@@ -23,13 +39,10 @@
   }
 
   .nav-main {
-    /*width: 150px;*/
     height: 17px;
   }
 
   .nav-main__link {
-    /*width: 80px;
-    /*font-size: 1.6rem;*/
     text-transform: capitalize;
   }
 
@@ -50,6 +63,18 @@
     font-size: 3rem;
     margin-left: 0;
   }
+
+  .listAppart {
+    background: #f7f7f7;
+    border-radius: 10px;
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 340px;
+    column-gap: 14px;
+    row-gap: 14px;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 /***************************/
@@ -65,13 +90,10 @@
   }
 
   .nav-main {
-    /*width: 170px;*/
     height: 20px;
   }
 
   .nav-main__link {
-    /*width: 90px;
-    /*font-size: 1.8rem;*/
     text-transform: capitalize;
   }
 
@@ -82,6 +104,19 @@
 
   .banner h1 {
     font-size: 3.4rem;
+  }
+
+  .listAppart {
+    border-radius: 12px;
+    column-gap: 130px;
+    row-gap: 50px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .card {
+    width: 340px;
+    height: 340px;
   }
 }
 
@@ -102,13 +137,10 @@
   }
 
   .nav-main {
-    /*width: 281px;*/
     height: 31px;
   }
 
   .nav-main__link {
-    /*width: 106px;
-    /*font-size: 2.2rem;*/
     text-transform: capitalize;
   }
 
@@ -123,6 +155,16 @@
   .banner h1 {
     font-size: 4.4rem;
   }
+
+  .listAppart {
+    border-radius: 23px;
+    grid-template-columns: 340px 340px 340px;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .about-banner {
     margin-top: 44px;
     margin-bottom: 31px;
@@ -193,5 +235,12 @@
 
   .banner h1 {
     font-size: 4.8rem;
+  }
+
+  .listAppart {
+    column-gap: 60px;
+    row-gap: 50px;
+    padding-top: 56px;
+    padding-bottom: 56px;
   }
 }
