@@ -14,7 +14,7 @@ class Carrousel extends Component {
   handleClick(direction) {
     if (direction === 'left') {
       if (this.state.currentCount === 0) {
-        return this.setState({ currentCount: 4 })
+        return this.setState({ currentCount: this.props.pictures.length - 1 })
       }
       return this.setState({ currentCount: this.state.currentCount - 1 })
     }
