@@ -14,7 +14,7 @@ class Rate extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="rating">
         <ul className="stars-container">
           {this.state.stars.map((el) => {
             if (el < this.props.nbStars) {

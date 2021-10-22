@@ -243,4 +243,78 @@
     padding-top: 56px;
     padding-bottom: 56px;
   }
+
+  .detailsAppart .container {
+    flex-direction: row;
+  }
+
+  .info_1 {
+    margin-top: 15px;
+  }
+
+  .info_1 h1 {
+    font-size: 3.6rem;
+  }
+
+  .info_1 h2 {
+    font-size: 1.8rem;
+  }
+
+  .info_2 {
+    flex-direction: column;
+    align-items: end;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .info_3 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info_3 .dropdown-container {
+    width: 582px;
+  }
+
+  .info_3 .dropdown {
+    height: 52px;
+  }
+
+  .info_3 .dropdown h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-right: 20px;
+  }
+
+  .arrow {
+    margin-right: 12px;
+  }
+
+  .profil {
+    order: 1;
+  }
+
+  .rating {
+    order: 2;
+  }
+
+  .stars-container p {
+    width: 30px;
+    height: 30px;
+  }
+
+  .name {
+    width: 93px;
+    font-size: 1.8rem;
+  }
+
+  .tag {
+    width: 115px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
 }
