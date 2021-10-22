@@ -12,7 +12,7 @@ class Home extends Component {
         <main role="main">
           <section className="listAppart">
             {dataAppart.map((el) => (
-              <Thumb key={el.id} title={el.title} id={el.id} />
+              <Thumb key={el.id} title={el.title} id={el.id} cover={el.cover} />
             ))}
           </section>
         </main>

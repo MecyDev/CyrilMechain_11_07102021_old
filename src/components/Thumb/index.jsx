@@ -8,6 +8,9 @@ class Thumb extends Component {
     return (
       <Link to={`/details/${this.props.id}`}>
         <div className="card">
+          <p>
+            <img src={this.props.cover} alt="" />
+          </p>
           <h2>{this.props.title}</h2>
         </div>
       </Link>
