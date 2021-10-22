@@ -3,39 +3,72 @@ import Carrousel from '../../components/Carrousel'
 import Tag from '../../components/Tag'
 import Profil from '../../components/Profil'
 import Rate from '../../components/Rate'
+import Dropdown from '../../components/Dropdown'
 
 import { dataAppart } from '../../data/dataAppart'
 
 import './detailsAppart.css'
 
 class DetailsAppart extends Component {
-  render() {
+  constructor(props) {
+    super(props)
+    this.state = {
+      data: this.getData(),
+    }
+  }
+
+  getData() {
     const { id } = this.props.match.params
-    const result = dataAppart.filter((el) => {
+    const data = dataAppart.filter((el) => {
       if (el.id === id) {
         return el
       } else {
         return false
       }
     })
+    return data
+  }
 
+  getListEquipments() {
+    return (
+      <ul>
+        {this.state.data[0].equipments.map((el) => {
+          return <li key={el}>{el}</li>
+        })}
+      </ul>
+    )
+  }
+
+  render() {
     return (
       <main className="detailsAppart">
-        <Carrousel pictures={result[0].pictures} title={result[0].title} />
+        <Carrousel
+          pictures={this.state.data[0].pictures}
+          title={this.state.data[0].title}
+        />
         <div className="container">
           <div className="info_1">
-            <h1>{result[0].title}</h1>
-            <h2>{result[0].location}</h2>
+            <h1>{this.state.data[0].title}</h1>
+            <h2>{this.state.data[0].location}</h2>
             <div className="tags">
-              {result[0].tags.map((el) => (
+              {this.state.data[0].tags.map((el) => (
                 <Tag key={el} value={el} />
               ))}
             </div>
           </div>
           <div className="info_2">
-            <Rate />
-            <Profil name={result[0].host.name} photo={result[0].host.picture} />
+            <Rate nbStars={this.state.data[0].rating} />
+            <Profil
+              name={this.state.data[0].host.name}
+              photo={this.state.data[0].host.picture}
+            />
           </div>
+        </div>
+        <div>
+          <Dropdown title="Équipements">{this.getListEquipments()}</Dropdown>
+          <Dropdown title="Description">
+            <p>{this.state.data[0].description}</p>
+          </Dropdown>
         </div>
       </main>
     )

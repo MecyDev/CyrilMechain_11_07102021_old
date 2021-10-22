@@ -33,7 +33,7 @@ class Dropdown extends Component {
           <span className={`arrow ${this.state.classNameArrow}`}></span>
         </div>
         <div className={`dropdown-content ${this.state.classNameDropContent}`}>
-          <p>{this.props.content}</p>
+          {this.props.children}
         </div>
       </div>
     )

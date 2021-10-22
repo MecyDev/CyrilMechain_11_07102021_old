@@ -35,7 +35,9 @@ class Apropos extends Component {
         <div className="about-banner"></div>
         <main className="about-main">
           {this.data.map((el) => (
-            <Dropdown key={el.id} title={el.title} content={el.content} />
+            <Dropdown key={el.id} title={el.title}>
+              <p>{el.content}</p>
+            </Dropdown>
           ))}
         </main>
       </div>
