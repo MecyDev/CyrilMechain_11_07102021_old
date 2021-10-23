@@ -29,22 +29,24 @@ class Carrousel extends Component {
   render() {
     return (
       <div className="carrousel">
-        <div className="navigation">
-          <button
-            type="button"
-            className="nav nav--left"
-            id="left"
-            aria-label="Retour à l'image précédente."
-            onClick={() => this.handleClick('left')}
-          ></button>
-          <button
-            type="button"
-            className="nav nav--right"
-            id="right"
-            aria-label="Aller à l'image suivante."
-            onClick={() => this.handleClick('right')}
-          ></button>
-        </div>
+        {this.props.pictures.length > 1 && (
+          <div className="navigation">
+            <button
+              type="button"
+              className="nav nav--left"
+              id="left"
+              aria-label="Retour à l'image précédente."
+              onClick={() => this.handleClick('left')}
+            ></button>
+            <button
+              type="button"
+              className="nav nav--right"
+              id="right"
+              aria-label="Aller à l'image suivante."
+              onClick={() => this.handleClick('right')}
+            ></button>
+          </div>
+        )}
         <figure>
           <img
             src={this.props.pictures[this.state.currentCount]}
