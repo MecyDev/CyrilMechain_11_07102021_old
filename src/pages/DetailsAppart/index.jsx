@@ -65,10 +65,10 @@ class DetailsAppart extends Component {
           </div>
         </div>
         <div className="info_3">
-          <Dropdown title="Équipements">{this.getListEquipments()}</Dropdown>
           <Dropdown title="Description">
             <p>{this.state.data[0].description}</p>
           </Dropdown>
+          <Dropdown title="Équipements">{this.getListEquipments()}</Dropdown>
         </div>
       </main>
     )
