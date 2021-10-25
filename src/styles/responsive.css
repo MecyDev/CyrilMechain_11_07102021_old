@@ -102,6 +102,31 @@
     width: 20px;
     height: 20px;
   }
+
+  .about-banner {
+    margin-top: 22px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(
+        rgba(126, 90, 90, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(../assets/gustavo-alves-YOXSC4zRcxw-unsplash_xl.jpg);
+  }
+
+  .about-main .dropdown h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-main .dropdown-content {
+    min-height: inherit;
+  }
+
+  .about-main .dropdown-content p {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+  }
 }
 
 /***************************/
