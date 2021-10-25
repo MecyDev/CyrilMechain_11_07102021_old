@@ -80,6 +80,10 @@
     flex-direction: row;
   }
 
+  .carrousel span {
+    display: inline;
+  }
+
   .info_2 {
     flex-direction: column;
     align-items: end;
